@@ -1,23 +1,60 @@
-
-@font-face {    
-    font-family: "Pretendard";   
-    font-weight: 500;   
-    font-display: swap;   
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff")     
-    format("woff"); 
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff")
+    format("woff");
 }
 
-body{
-    font-family: "Pretendard";
-    color:#222222;
+body {
+  font-family: "Pretendard";
+  color: #222222;
+  margin: 0;
 }
 
-.header-logo{
-    width: 108px;
-    margin : 16px;
-
+.header-login {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  font-weight: bolder;
+  font-size: 16px;
+  color: #737373;
+  cursor: pointer;
+}
+header {
+  border-bottom: 1px solid #737373;
 }
 
-.header-container{
-    display: flex;
+.header-logo {
+  width: 108px;
+}
+.flex {
+  display: flex;
+}
+ul {
+  display: flex;
+  gap: 36px;
+}
+.header-container {
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 8px 0;
+}
+
+.header-container > div > ul {
+  list-style: none;
+}
+
+.header-container > div > ul > li {
+  cursor: pointer;
+  font-weight: 600;
+}
+.bar {
+  border-right: 1px solid gray;
+  padding-right: 20px;
+}
+.bar2 {
+  margin-left: -10px;
 }
