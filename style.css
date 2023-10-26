@@ -51,8 +51,13 @@ ul {
   cursor: pointer;
   font-weight: 600;
 }
+.banner {
+  background-image: url(".//images/banner.png");
+  height: 400px;
+  background-size: cover;
+}
 .bar {
-  border-right: 1px solid gray;
+  border-right: 1px solid #c9c9c9;
   padding-right: 20px;
 }
 .bar2 {
