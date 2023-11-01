@@ -253,9 +253,9 @@ h6 {
 }
 .onboarding > li > div > img {
   width: 398px;
-  height: 198px;
+  height: 205px;
   border-radius: 12px;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 .onboarding > li > div > img:hover {
