@@ -305,6 +305,7 @@ h6 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   list-style: none;
+  padding-bottom: 140px;
 }
 .education > li {
   background-size: cover;
@@ -313,6 +314,11 @@ h6 {
   border-radius: 20px;
   margin-left: -20px;
 }
+/* &nbsp; < -- 공백을 하나 만든다   &nbsp;&nbsp; 두개일때 2칸*/
+.education > li > button {
+  color: #737373;
+}
+
 .kdt-card {
   background-image: url("./images/home_card_600_kdt.png");
 }
@@ -344,4 +350,101 @@ h6 {
   padding: 0;
   font-weight: 800;
   cursor: pointer;
+}
+footer {
+  border-top: 1px solid #e5e5e5;
+}
+.footer-container {
+  margin: auto;
+  max-width: 1280px;
+  padding: 32px 16px;
+}
+
+.sitemap {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  height: 250px;
+  margin-top: 12px;
+}
+.sitemap > div {
+  display: flex;
+}
+.sitemap > div > div > ul > .sitemap > div > div:last-of-type {
+  margin-left: 80px;
+}
+
+.sitemap > div > div > h5 {
+  font-size: 12px;
+  margin-left: 120px;
+}
+.sitemap > div > div > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sitemap > div > div > ul > li {
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.sitemap > div > div > ul > li > svg {
+  width: 24px;
+  margin-left: 4px;
+}
+.circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 9999px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-info {
+  border-top: 1px solid #e5e5e5;
+}
+
+.company-info > ul {
+  padding-top: 16px;
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.conditions {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.conditions > span {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: #737373;
+  border-radius: 9999px;
+  margin: 0 8px;
+}
+.likelion {
+  margin-top: 12px;
+  display: flex;
+  font-size: 12px;
+}
+.likelion > span::after {
+  content: "|";
+  margin: 0 8px;
+  font-size: 10px;
+}
+.address {
+  margin-top: 4px;
+  font-size: 12px;
 }
